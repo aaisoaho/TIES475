@@ -79,7 +79,7 @@ function create ()
     {
         cursor.setVisible(true).setPosition(pointer.x, pointer.y);
 
-        this.physics.moveToObject(pallo, pointer, 240);
+        this.physics.moveToObject(pallo, pointer, 600);
     }, this);
     seinat.forEach(seina => 
     {
